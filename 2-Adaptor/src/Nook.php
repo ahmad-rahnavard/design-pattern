@@ -2,7 +2,7 @@
 
 namespace Acme;
 
-class Kindle implements eReaderInterface
+class Nook implements eReaderInterface
 {
     /**
      * Open the book
@@ -11,7 +11,7 @@ class Kindle implements eReaderInterface
      */
     public function turnOn()
     {
-        var_dump('Turn the Kindle on.');
+        var_dump('Turn the Nook on.');
     }
 
     /**
@@ -21,6 +21,6 @@ class Kindle implements eReaderInterface
      */
     public function pressNextButton()
     {
-        var_dump('Press the next button on the kindle.');
+        var_dump('Press the next button on the nook.');
     }
 }

@@ -3,7 +3,8 @@
     "psr-4": {
       "App\\": "src",
       "App\\Decorator\\": "App/1-Decorator",
-      "App\\Adaptor\\": "App/2-Adaptor"
+      "App\\Adaptor\\": "App/2-Adaptor",
+      "App\\Template\\": "App/3-Template"
     }
   }
 }

@@ -2,9 +2,9 @@
 
 require 'vendor/autoload.php';
 
-use App\OilChange;
-use App\TireRotation;
-use App\BasicInspection;
+use App\Decorator\OilChange;
+use App\Decorator\TireRotation;
+use App\Decorator\BasicInspection;
 
 $service = new TireRotation(new OilChange(new BasicInspection));
 echo $service->getCost() . "\n";

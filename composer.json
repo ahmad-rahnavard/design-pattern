@@ -1,7 +1,9 @@
 {
   "autoload": {
     "psr-4": {
-      "App\\": "src"
+      "App\\": "src",
+      "App\\Decorator\\": "App/1-Decorator",
+      "App\\Adaptor\\": "App/2-Adaptor"
     }
   }
 }

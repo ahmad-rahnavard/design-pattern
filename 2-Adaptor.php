@@ -2,11 +2,11 @@
 
 require 'vendor/autoload.php';
 
-use App\Nook;
-use App\Book;
-use App\Kindle;
-use App\BookInterface;
-use App\eReaderAdaptor;
+use App\Adaptor\Nook;
+use App\Adaptor\Book;
+use App\Adaptor\Kindle;
+use App\Adaptor\BookInterface;
+use App\Adaptor\eReaderAdaptor;
 
 class Person
 {

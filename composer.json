@@ -5,7 +5,8 @@
       "App\\Decorator\\": "App/1-Decorator",
       "App\\Adaptor\\": "App/2-Adaptor",
       "App\\Template\\": "App/3-Template",
-      "App\\Strategy\\": "App/4-Strategy"
+      "App\\Strategy\\": "App/4-Strategy",
+      "App\\TaskChain\\": "App/5-TaskChain"
     }
   }
 }

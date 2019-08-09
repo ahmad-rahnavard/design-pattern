@@ -6,7 +6,11 @@
       "App\\Adaptor\\": "App/2-Adaptor",
       "App\\Template\\": "App/3-Template",
       "App\\Strategy\\": "App/4-Strategy",
-      "App\\TaskChain\\": "App/5-TaskChain"
+      "App\\TaskChain\\": "App/5-TaskChain",
+      "App\\Specification\\": "App/6-Specification-1"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
   }
 }

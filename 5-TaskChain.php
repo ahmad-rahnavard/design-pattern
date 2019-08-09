@@ -2,10 +2,10 @@
 
 require 'vendor/autoload.php';
 
-use App\ResponsibilityChain\Alarm;
-use App\ResponsibilityChain\Doors;
-use App\ResponsibilityChain\Lights;
-use App\ResponsibilityChain\HomeStatus;
+use App\TaskChain\Alarm;
+use App\TaskChain\Doors;
+use App\TaskChain\Lights;
+use App\TaskChain\HomeStatus;
 
 $lights = new Lights();
 $doors = new Doors();

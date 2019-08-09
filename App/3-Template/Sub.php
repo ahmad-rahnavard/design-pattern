@@ -4,7 +4,9 @@ namespace App\Template;
 
 abstract class Sub
 {
-
+    /**
+     * @return mixed
+     */
     public function make()
     {
         return $this
@@ -14,6 +16,9 @@ abstract class Sub
             ->addSauces();
     }
 
+    /**
+     * @return $this
+     */
     protected function layBread()
     {
         var_dump('laying down te bread');
@@ -21,6 +26,9 @@ abstract class Sub
         return $this;
     }
 
+    /**
+     * @return $this
+     */
     protected function addLettuce()
     {
         var_dump('adding some lettuce');
@@ -28,6 +36,9 @@ abstract class Sub
         return $this;
     }
 
+    /**
+     * @return $this
+     */
     protected function addSauces()
     {
         var_dump('adding oil and vinegar');
@@ -35,5 +46,8 @@ abstract class Sub
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
     protected abstract function addPrimaryToppings();
 }

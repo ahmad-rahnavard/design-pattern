@@ -6,6 +6,11 @@ use Exception;
 
 class Alarm extends HomeChecker
 {
+    /**
+     * @param HomeStatus $home
+     *
+     * @throws Exception
+     */
     public function check(HomeStatus $home)
     {
         if (! $home->alarmOn) {

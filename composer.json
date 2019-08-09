@@ -7,10 +7,14 @@
       "App\\Template\\": "App/3-Template",
       "App\\Strategy\\": "App/4-Strategy",
       "App\\TaskChain\\": "App/5-TaskChain",
-      "App\\Specification\\": "App/6-Specification-1"
+      "App\\Specification\\": "App/6-Specification-1",
+      "App\\SpecificationByDB\\": "App/7-Specification-2"
     }
   },
   "require-dev": {
     "phpunit/phpunit": "^8.3"
+  },
+  "require": {
+    "illuminate/database": "^5.8"
   }
 }

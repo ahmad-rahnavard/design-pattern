@@ -1,14 +1,14 @@
 {
   "autoload": {
     "psr-4": {
-      "App\\": "src",
       "App\\Decorator\\": "App/1-Decorator",
       "App\\Adaptor\\": "App/2-Adaptor",
       "App\\Template\\": "App/3-Template",
       "App\\Strategy\\": "App/4-Strategy",
       "App\\TaskChain\\": "App/5-TaskChain",
       "App\\Specification\\": "App/6-Specification-1",
-      "App\\SpecificationByDB\\": "App/7-Specification-2"
+      "App\\SpecificationByDB\\": "App/7-Specification-2",
+      "App\\Observer\\": "App/8-Observer"
     }
   },
   "require-dev": {

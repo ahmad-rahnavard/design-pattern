@@ -9,9 +9,9 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-<!--        <testsuite name="Test specifications by hard code variables">-->
-<!--            <directory suffix="Test.php">./App/6-Specification-1/tests</directory>-->
-<!--        </testsuite>-->
+        <testsuite name="Test specifications by hard code variables">
+            <directory suffix="Test.php">./App/6-Specification-1/tests</directory>
+        </testsuite>
         <testsuite name="Test specifications by database variables">
             <directory suffix="Test.php">./App/7-Specification-2/tests</directory>
         </testsuite>
